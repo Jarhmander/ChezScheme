@@ -2112,6 +2112,7 @@
            (boolean? x)
            (char? x)
            (string? x)
+           (vector? x)
            (bytevector? x)
            (fxvector? x)
            (memq x '(#!eof #!bwp #!base-rtd))))]))
