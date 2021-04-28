@@ -1981,7 +1981,7 @@ primvars.mo:Expected error in mat trace-output-port: "trace-output-port: #<input
 5_4.mo:Expected error in mat char->integer: "char->integer: a is not a character".
 5_4.mo:Expected error in mat char->integer: "char->integer: <int> is not a character".
 5_4.mo:Expected error in mat string-for-each: "incorrect argument count in call (string-for-each)".
-5_4.mo:Expected error in mat string-for-each: "incorrect argument count in call (string-for-each (quote #()))".
+5_4.mo:Expected error in mat string-for-each: "incorrect argument count in call (string-for-each #())".
 5_4.mo:Expected error in mat string-for-each: "incorrect argument count in call (string-for-each +)".
 5_4.mo:Expected error in mat string-for-each: "string-for-each: "" is not a procedure".
 5_4.mo:Expected error in mat string-for-each: "string-for-each: "" is not a procedure".
@@ -4102,7 +4102,7 @@ cp0.mo:Expected error in mat expand/optimize-output: "expand/optimize-output: #<
 5_6.mo:Expected error in mat list->fxvector: "list->fxvector: (1 2 3 2 3 2 ...) is circular".
 5_6.mo:Expected error in mat fxvector->list: "fxvector->list: (a b c) is not an fxvector".
 5_6.mo:Expected error in mat vector-map: "incorrect argument count in call (vector-map)".
-5_6.mo:Expected error in mat vector-map: "incorrect argument count in call (vector-map (quote #()))".
+5_6.mo:Expected error in mat vector-map: "incorrect argument count in call (vector-map #())".
 5_6.mo:Expected error in mat vector-map: "incorrect argument count in call (vector-map +)".
 5_6.mo:Expected error in mat vector-map: "vector-map: #() is not a procedure".
 5_6.mo:Expected error in mat vector-map: "vector-map: #() is not a procedure".
@@ -4119,7 +4119,7 @@ cp0.mo:Expected error in mat expand/optimize-output: "expand/optimize-output: #<
 5_6.mo:Expected error in mat vector-map: "vector-map: lengths of input vectors #(y) and #() differ".
 5_6.mo:Expected error in mat vector-map: "vector-map: lengths of input vectors #(y) and #() differ".
 5_6.mo:Expected error in mat vector-for-each: "incorrect argument count in call (vector-for-each)".
-5_6.mo:Expected error in mat vector-for-each: "incorrect argument count in call (vector-for-each (quote #()))".
+5_6.mo:Expected error in mat vector-for-each: "incorrect argument count in call (vector-for-each #())".
 5_6.mo:Expected error in mat vector-for-each: "incorrect argument count in call (vector-for-each +)".
 5_6.mo:Expected error in mat vector-for-each: "vector-for-each: #() is not a procedure".
 5_6.mo:Expected error in mat vector-for-each: "vector-for-each: #() is not a procedure".
@@ -4137,16 +4137,16 @@ cp0.mo:Expected error in mat expand/optimize-output: "expand/optimize-output: #<
 5_6.mo:Expected error in mat vector-for-each: "vector-for-each: lengths of input vectors #(y) and #() differ".
 5_6.mo:Expected error in mat vector-sort: "incorrect argument count in call (vector-sort)".
 5_6.mo:Expected error in mat vector-sort: "incorrect argument count in call (vector-sort >)".
-5_6.mo:Expected error in mat vector-sort: "incorrect argument count in call (vector-sort (quote #(a b c)))".
-5_6.mo:Expected error in mat vector-sort: "incorrect argument count in call (vector-sort > (quote #(1 2 3)) #t)".
+5_6.mo:Expected error in mat vector-sort: "incorrect argument count in call (vector-sort #(a b c))".
+5_6.mo:Expected error in mat vector-sort: "incorrect argument count in call (vector-sort > #(1 2 3) #t)".
 5_6.mo:Expected error in mat vector-sort: "vector-sort: 3 is not a vector".
 5_6.mo:Expected error in mat vector-sort: "vector-sort: (1 2 3) is not a vector".
 5_6.mo:Expected error in mat vector-sort: "vector-sort: #(a b c) is not a procedure".
 5_6.mo:Expected error in mat vector-sort: ">: b is not a real number".
 5_6.mo:Expected error in mat vector-sort!: "incorrect argument count in call (vector-sort!)".
 5_6.mo:Expected error in mat vector-sort!: "incorrect argument count in call (vector-sort! >)".
-5_6.mo:Expected error in mat vector-sort!: "incorrect argument count in call (vector-sort! (quote #(a b c)))".
-5_6.mo:Expected error in mat vector-sort!: "incorrect argument count in call (vector-sort! > (quote #(1 2 3)) #t)".
+5_6.mo:Expected error in mat vector-sort!: "incorrect argument count in call (vector-sort! #(a b c))".
+5_6.mo:Expected error in mat vector-sort!: "incorrect argument count in call (vector-sort! > #(1 2 3) #t)".
 5_6.mo:Expected error in mat vector-sort!: "vector-sort!: 3 is not a mutable vector".
 5_6.mo:Expected error in mat vector-sort!: "vector-sort!: (1 2 3) is not a mutable vector".
 5_6.mo:Expected error in mat vector-sort!: "vector-sort!: #(a b c) is not a procedure".

@@ -1,5 +1,5 @@
-*** errors-compile-0-f-f-f	2021-04-23 10:12:28.440000000 -0400
---- errors-compile-0-f-t-f	2021-04-23 09:38:03.010000000 -0400
+*** errors-compile-0-f-f-f	2021-04-28 15:33:31.750000000 -0400
+--- errors-compile-0-f-t-f	2021-04-28 14:59:53.710000000 -0400
 ***************
 *** 178,184 ****
   3.mo:Expected error in mat dipa-letrec: "attempt to reference undefined variable a".
@@ -332,7 +332,7 @@
 ! record.mo:Expected error in mat r6rs-records-procedural: "incorrect argument count in call (ccons 1)".
 ! record.mo:Expected error in mat r6rs-records-procedural: "incorrect argument count in call (ccons 1 2 3)".
 ! record.mo:Expected error in mat r6rs-records-procedural: "incorrect argument count in call (n (+ z 7) w "what?")".
-! record.mo:Expected error in mat r6rs-records-procedural: "incorrect argument count in call ((p x 17) y (quote #(oops)))".
+! record.mo:Expected error in mat r6rs-records-procedural: "incorrect argument count in call ((p x 17) y #(oops))".
   record.mo:Expected error in mat r6rs-records-procedural: "make-record-constructor-descriptor: record constructor descriptor #<record constructor descriptor> is not for parent of record type #<record type grand-child>".
   record.mo:Expected error in mat r6rs-records-procedural: "make-record-type-descriptor: cannot extend sealed record type #<record type bar>".
   record.mo:Expected error in mat r6rs-records-syntactic: "invalid syntax point".

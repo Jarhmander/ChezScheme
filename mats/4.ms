@@ -194,7 +194,7 @@
   (equivalent-expansion?
     (parameterize ([#%$suppress-primitive-inlining #f])
       (expand '`#(a b c)))
-    ''#(a b c))
+    '#(a b c))
   (equivalent-expansion?
     (parameterize ([#%$suppress-primitive-inlining #f])
       (expand '`#(,c d)))
@@ -222,7 +222,7 @@
   (equivalent-expansion?
     (parameterize ([#%$suppress-primitive-inlining #f])
       (expand '`#(a b (unquote) d)))
-    ''#(a b d))
+    '#(a b d))
   (equivalent-expansion?
     (parameterize ([#%$suppress-primitive-inlining #f])
       (expand '`#(a b (unquote c1) d)))
@@ -238,7 +238,7 @@
   (equivalent-expansion?
     (parameterize ([#%$suppress-primitive-inlining #f])
       (expand '`#(a b (unquote-splicing) d)))
-    ''#(a b d))
+    '#(a b d))
   (equivalent-expansion?
     (parameterize ([#%$suppress-primitive-inlining #f])
       (expand '`#(a b (unquote-splicing c1) d)))
