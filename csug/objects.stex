@@ -594,6 +594,9 @@ printed element.
 This extension is disabled in an input stream after \scheme{#!r6rs} has
 been seen by the reader, unless \scheme{#!chezscheme} has been seen more
 recently.
+Also, as an extension, {\ChezScheme}'s vectors are self-evaluating; like
+bytevectors, strings and fixnum-only vectors (fxvectors, see below), they
+need not be quoted.
 
 The length and indices of a vector in {\ChezScheme} are always fixnums.
 
