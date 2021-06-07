@@ -1,0 +1,5 @@
+(self-evaluating-vectors #t)
+(library (t)
+  (export v)
+  (import (chezscheme))
+  (define v #(a b c)))
